@@ -1,5 +1,16 @@
-extends layout
+html(lang="en")
+  head
+    title= title
+  body 
 
-block content
-  h1= title
-  p Welcome to #{title}
+  h1 Mini Message Board
+
+  p 
+  a(href="/new") New Message 
+  each message in messages 
+    .message 
+      h2= message.user
+      p=message.text 
+      p 
+      small= message.added.toLocaleString()
+  

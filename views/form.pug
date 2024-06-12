@@ -1,0 +1,15 @@
+// views/form.pug
+doctype html
+html
+  head
+    title New Message
+  body
+    h1 Create a New Message
+    form(method="POST" action="/new")
+      label(for="user") Name:
+      input(type="text" name="user" id="user" required)
+      br
+      label(for="message") Message:
+      input(type="text" name="messageText" id="messageText" required)
+      br
+      button(type="submit") Submit
