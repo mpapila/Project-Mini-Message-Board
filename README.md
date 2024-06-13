@@ -10,4 +10,4 @@ Mini Message Board is a simple web application built with Node.js and Express th
 
 ## Live Demo
 
-Check out the live demo [here](https://example.com).
+Check out the live demo [here](https://project-mini-message-board-production-f148.up.railway.app/).
